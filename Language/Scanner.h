@@ -16,9 +16,21 @@ public:
 private:
 	void ScanToken();
 	char Advance();
+	char Peek() const;
+	char PeekNext(unsigned offset = 1) const;
 	bool Match(char expected);
+	std::string_view GetCurrentLexeme() const;
 	
-	void AddToken(TokenType type);
+	void AddToken(TokenType type, std::string_view value = "");
+	void Error(std::string_view error);
+
+	void HandleComment();
+	void HandleString();
+	void HandleNumber();
+	void HandleIdentifier();
+
+	static TokenType GetReservedKeywordOrIdentifier(std::string_view lexeme);
+	static bool IsAlphaNumeric(char c);
 
 	std::vector<Token> m_Tokens;
 	std::string_view m_Source;

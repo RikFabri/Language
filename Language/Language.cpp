@@ -4,8 +4,17 @@
 int main()
 {
 	Scanner scanner{
-		"int a = 5 + 6 \
-		a += 1"
+		//"\"hello\"+"
+		"#include \"Scanner.h\"\n \
+		\n \
+		int main()\n \
+		{   while 10.5\n \
+			Scanner scanner{};\n \
+			scanner.ScanTokens();\n \
+			scanner.PrintTokens();\n \
+				\n \
+			return 0;\n \
+		}"
 	};
 
 	scanner.ScanTokens();
