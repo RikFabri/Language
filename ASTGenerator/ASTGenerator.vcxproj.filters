@@ -13,39 +13,10 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="ASTNodes">
-      <UniqueIdentifier>{a88bb212-042b-47f8-8161-414e1362ba50}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Language.cpp">
+    <ClCompile Include="ASTGenerator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Scanner.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Token.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ErrorReporting.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="AstNodes.cpp">
-      <Filter>ASTNodes</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Scanner.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Token.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ErrorReporting.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="AstNodes.h">
-      <Filter>ASTNodes</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

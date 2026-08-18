@@ -5,7 +5,7 @@ int main()
 {
 	Scanner scanner{
 		//"\"hello\"+"
-		"#include \"Scanner.h\"\n \
+		"class #include \"Scanner.h\"\n \
 		\n \
 		int main()\n \
 		{   while 10.5\n \

@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35919.96 d17.13
+VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Language", "Language\Language.vcxproj", "{C81A67E3-CA06-4268-932F-3166B6B862BD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ASTGenerator", "ASTGenerator\ASTGenerator.vcxproj", "{1AC07D21-EE98-4F50-BCFD-C44F10B8691E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{C81A67E3-CA06-4268-932F-3166B6B862BD}.Release|x64.Build.0 = Release|x64
 		{C81A67E3-CA06-4268-932F-3166B6B862BD}.Release|x86.ActiveCfg = Release|Win32
 		{C81A67E3-CA06-4268-932F-3166B6B862BD}.Release|x86.Build.0 = Release|Win32
+		{1AC07D21-EE98-4F50-BCFD-C44F10B8691E}.Debug|x64.ActiveCfg = Debug|x64
+		{1AC07D21-EE98-4F50-BCFD-C44F10B8691E}.Debug|x64.Build.0 = Debug|x64
+		{1AC07D21-EE98-4F50-BCFD-C44F10B8691E}.Debug|x86.ActiveCfg = Debug|Win32
+		{1AC07D21-EE98-4F50-BCFD-C44F10B8691E}.Debug|x86.Build.0 = Debug|Win32
+		{1AC07D21-EE98-4F50-BCFD-C44F10B8691E}.Release|x64.ActiveCfg = Release|x64
+		{1AC07D21-EE98-4F50-BCFD-C44F10B8691E}.Release|x64.Build.0 = Release|x64
+		{1AC07D21-EE98-4F50-BCFD-C44F10B8691E}.Release|x86.ActiveCfg = Release|Win32
+		{1AC07D21-EE98-4F50-BCFD-C44F10B8691E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

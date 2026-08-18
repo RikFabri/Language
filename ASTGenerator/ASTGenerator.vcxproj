@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c81a67e3-ca06-4268-932f-3166b6b862bd}</ProjectGuid>
-    <RootNamespace>Language</RootNamespace>
+    <ProjectGuid>{1ac07d21-ee98-4f50-bcfd-c44f10b8691e}</ProjectGuid>
+    <RootNamespace>ASTGenerator</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -128,17 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AstNodes.cpp" />
-    <ClCompile Include="ErrorReporting.cpp" />
-    <ClCompile Include="Language.cpp" />
-    <ClCompile Include="Scanner.cpp" />
-    <ClCompile Include="Token.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="AstNodes.h" />
-    <ClInclude Include="ErrorReporting.h" />
-    <ClInclude Include="Scanner.h" />
-    <ClInclude Include="Token.h" />
+    <ClCompile Include="ASTGenerator.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
